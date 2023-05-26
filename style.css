@@ -1,0 +1,414 @@
+
+@font-face {
+  font-family: "MAK";
+  src:
+      local("MAK") ,
+	   local("MAK-bold"),
+       url("../fonts/MAK.woff2") format('woff2'),
+       url("../fonts/MAK.woff") format('woff'),
+       url("../fonts/MAK.eot") format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "MAK-bold";
+  src:
+      local("MAK-bold") ,
+	   local("MAK-bold"),
+       url("../fonts/MAK-bold.woff2") format('woff2'),
+       url("../fonts/MAK-bold.woff") format('woff'),
+       url("../fonts/MAK-bold.eot") format('eot');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+li {
+  float: left;
+  list-style-type:none;
+  
+  text-align:center;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+  text-align:center;
+}
+
+h1{ 
+text-align:center;
+font-size:170px;
+font-family:"MAK-bold";
+letter-spacing:  30px;
+padding-top:40px;
+color:white;
+/*text-shadow: white 5px 0 10px;*/
+}
+
+ .w1{
+  
+	padding-left:60px;
+	padding-top:60px;
+	color:white;
+	font-size:30px;
+}
+
+/*-webkit-text-stroke: 4px white;
+
+/*#ad2e1c #001720 */
+header{
+background-image:url("denisvolkov.jpg");
+background-repeat : no-repeat;
+background-size:100% auto;
+height:100%;
+width:100%
+
+
+
+
+}
+
+body{
+	margin:0;
+}
+
+h2{
+	text-align:left;
+font-size:40px;
+font-family:"MAK";
+margin-left:30px;
+height:auto;
+}
+
+.block1{
+	background-color:white;
+	margin-top:250px;
+	
+	border: solid black;
+	height:auto;
+	display:flex;
+}
+
+
+.child1{
+  border-radius: 20px; /* Уголки */
+   max-width:350px;
+   margin:60px;
+   padding:50px;
+height: 300px;
+display: inline-block;
+ margin-top:5px;
+ 
+background: rgb(172,233,148);
+background: radial-gradient(circle, rgba(172,233,148,1) 15%, rgba(255,255,255,1) 100%);
+border: solid #ace994;
+border-width:10px;
+}
+
+.child2{
+  border-radius: 20px; /* Уголки */
+   max-width:350px;
+   margin:56px;
+   padding:50px;
+   margin-top:5px;
+height: 300px;
+display: inline-block;
+border: solid #ace994;
+border-width:10px;
+background: rgb(172,233,148);
+background: radial-gradient(circle, rgba(172,233,148,1) 15%, rgba(255,255,255,1) 100%);
+}
+
+h2{text-align:center;}
+
+h4{text-align:center;}
+
+
+
+
+	
+h3{
+	font-family:"MAK";
+	text-align:center;
+	padding-top:5px;
+}
+
+#frame {
+	margin: 0 auto;
+	width: 550px;
+	max-width: 100%;
+	text-align: center;
+}
+
+#frame input[type=radio] {
+	display: none;
+}
+
+#frame label {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#slides {
+	
+	border: 5px solid green;
+	
+	position: relative;
+	z-index: 1;
+}
+
+#overflow {
+	width: 100%;
+	overflow: hidden;
+}
+
+#frame1:checked~#slides .inner {
+	margin-left: 0;
+}
+
+#frame2:checked~#slides .inner {
+	margin-left: -100%;
+}
+
+#frame3:checked~#slides .inner {
+	margin-left: -200%;
+}
+
+#frame4:checked~#slides .inner {
+	margin-left: -300%;
+}
+
+#slides .inner {
+	
+	width: 400%;
+	line-height: 0;
+	height: 300px;
+}
+
+#slides .frame {
+	width: 25%;
+	float: left;
+
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color: #FFF;
+}
+
+#slides .frame_1 {
+	background:url("denisvolkov.jpg");
+}
+
+#slides .frame_2 {
+	background: url("altaaai.jpg");
+	background-size:100% auto;
+	background-repeat:no-repeat;
+}
+
+#slides .frame_3 {
+	background: url("background_mountains.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#slides .frame_4 {
+background: url("back1.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#controls {
+	margin: -180px 0 0 0;
+	width: 100%;
+	height: 50px;
+	z-index: 3;
+	position: relative;
+}
+
+#controls label {
+	transition: opacity 0.2s ease-out;
+	display: none;
+	width: 50px;
+	height: 50px;
+	opacity: .4;
+}
+
+#controls label:hover {
+	opacity: 1;
+}
+
+#frame1:checked~#controls label:nth-child(2),
+#frame2:checked~#controls label:nth-child(3),
+#frame3:checked~#controls label:nth-child(4),
+#frame4:checked~#controls label:nth-child(1) {
+	background:
+url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+	float: right;
+	margin: 0 -50px 0 0;
+	display: block;
+}
+
+#frame1:checked~#controls label:nth-last-child(2),
+#frame2:checked~#controls label:nth-last-child(3),
+#frame3:checked~#controls label:nth-last-child(4),
+#frame4:checked~#controls label:nth-last-child(1) {
+	background:
+url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+	float: left;
+	margin: 0 0 0 -50px;
+	display: block;
+}
+
+#bullets {
+	margin: 150px 0 0;
+	text-align: center;
+}
+
+#bullets label {
+	display: inline-block;
+	margin-top:10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	background: #ccc;
+	margin: 0 10px;
+}
+
+#frame1:checked~#bullets label:nth-child(1),
+#frame2:checked~#bullets label:nth-child(2),
+#frame3:checked~#bullets label:nth-child(3),
+#frame4:checked~#bullets label:nth-child(4) {
+	background: #444;
+}
+
+@media screen and (max-width: 900px) {
+	#frame1:checked~#controls label:nth-child(2),
+	#frame2:checked~#controls label:nth-child(3),
+	#frame3:checked~#controls label:nth-child(4),
+	#frame4:checked~#controls label:nth-child(1),
+	#frame1:checked~#controls label:nth-last-child(2),
+	#frame2:checked~#controls label:nth-last-child(3),
+	#frame3:checked~#controls label:nth-last-child(4),
+	#frame4:checked~#controls label:nth-last-child(1) {
+		margin: 0;
+	}
+	#slides {
+		max-width: calc(100% - 140px);
+		margin: 0 auto;
+	}
+	
+
+}
+.callback textarea {
+	background:transparent;
+	border:1px solid #fff;
+	padding:18px 28px;
+	width:100%;
+	font-size: 18px;
+	color:#fff;
+	margin:0 10px;
+	margin:o auto;
+	resize:none;
+}
+
+
+.modal{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100vh;
+	z-index:99998;
+	background-color:rgba(0,0,0,0.3);
+	display:grid;
+	align-items:center;
+	justify-content:center;
+	overline-y:auto;
+	visibility:hidden;
+	opasity:0;
+	transition: once .4s, visibility.4s;
+}
+
+.modal-box{
+	max-width:500px;
+	padding:45px;
+	z-index:1;
+	background-color:white;
+	margin:30px 15px;
+box-shadow: 32px 30px 18px -11px rgba(34, 60, 80, 0.2);
+transform:scale(0);
+transition: transform .8s;
+
+}
+
+.modal.open{
+		visibility:visible;
+	opasity:1;
+}
+
+
+.modal.open .modal-box{
+	transform:scale(0);
+}
+
+
+/*<div class = ' callback'>
+ <div class="container">
+    <h2 class="tittle">Хочется узнать что-то еще?</h2>
+	
+	<form action="#">
+	  <div class="row">
+	    <div class="col">
+		  <input type="text" id='name' placeholder="Введите ваше имя...">
+		  </div>
+<div class="col">
+ <input type="tel" id='phone' placeholder="Введите ваш номер телефона...">
+ <div class = "col">
+  <input type="email" id='emal' placeholder="Введите ваш emai...">
+ </div>
+ </div>
+ </div>*/
+
+
+
+/*h3{font-family:"Source Serif Pro";}*/
+	
+
+
+
+/*<button id="open-modal">
+open modal window
+</button>
+
+<div class="modal">
+   <div class = 'modal-content'>
+     <p > text here </p>
+   </div>
+</div>
+.modal{
+  position: fixed;
+  z-index: 999 ;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+  background-color:rgba(0,0,0,0.4);
+
+
+}
+
+.modal-content{
+  background: #fff;
+  padding:20px;
+  border:1px solid #888;
+  width: 50%;
+  box-sizing:border-box;
+  margin:0 auto;
+
+}*/

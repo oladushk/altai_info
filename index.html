@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Пример веб-страницы</title>
+ <link rel="stylesheet" href="style.css ">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+
+</head>
+<body>
+
+<header>
+   <div class="first" >
+       <h1> Алтай </h1>
+	   <h3 class=w1 >«Мои глаза обращены постоянно к синеющим вершинам Алтая, где оставлено мое сердце»</h3>
+   </div>
+  </div> 
+   <div class=block1>
+<h2>Основной целью является показать красоту Алтайской республики</h2>
+</div>
+</header>
+
+<h2>В чем отличия Республики Алтай и Алтайского края?</h2>
+
+<div class='child1'>
+<h2>Республика:</h2>
+
+
+<h4>1.Республика вошла в состав СССР позже края</h4>
+<h4>2.Столица-Горно-Алтайск </h4>
+<h4>3.Именно в Республик горы называют "золотыми",горы здесь кажутся могучими</h4>
+
+</div>
+
+<div class='child2'>
+<h2>Край:</h2>
+<h4>1.Край вошел в состав CCCР раньше</h4>
+<h4>2.Cтолица-Барнаул </h4>
+<h4>3.В Алтайском крае так же есть горы , но здесь они мягкие </h4>
+
+</div>
+
+<div style="width:500px;height:auto;background:green;margin:auto;
+  border-radius: 20px;" onclick="this.style.background='#ace994'"> <h3>Посмотрите на природные красоты Алтая (на меня можно кликнуть)</h3></div>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+
+	<div id="frame">
+		<input type="radio" name="frame" id="frame1" checked />
+		<input type="radio" name="frame" id="frame2" />
+		<input type="radio" name="frame" id="frame3" />
+		<input type="radio" name="frame" id="frame4" />
+		<div id="slides">
+			<div id="overflow">
+				<div class="inner">
+					<div class="frame frame_1">
+						<div class="frame-content">
+							
+							<img src("image/altai.jpg") ></img>
+						</div>
+					</div>
+					<div class="frame frame_2">
+						<div class="frame-content">
+							
+						</div>
+					</div>
+					<div class="frame frame_3">
+						<div class="frame-content">
+							
+						</div>
+					</div>
+					<div class="frame frame_4">
+						<div class="frame-content">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="controls">
+			<label for="frame1"></label>
+			<label for="frame2"></label>
+			<label for="frame3"></label>
+			<label for="frame4"></label>
+		</div>
+		<div id="bullets">
+			<label for="frame1"></label>
+			<label for="frame2"></label>
+			<label for="frame3"></label>
+			<label for="frame4"></label>
+		</div>
+	</div>
+
+
+       
+       <div class="container">
+	   <h2>Модальное окно</h2>
+	   <button id="open-modal-btn">Открыть модальное окно</button>
+	   </div>
+	   
+	     <div class="modal" id="my-modal">
+		    <div class="modal-box">
+	<h2>Хаха обманка б надоело</h2>
+	
+   </div>
+   </div>
+   
+   <script>
+   document.getElementById("open-modal-btn").addEventListener("click",function(){
+	document.getElementById("my-modal").classList.add("open")
+})
+</script>
+  
+</body>
+</html>
