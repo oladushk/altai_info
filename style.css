@@ -1,16 +1,10 @@
 
-@font-face {
-  font-family: "MAK";
-  src:
-      local("MAK") ,
-	   local("MAK-bold"),
-       url("../fonts/MAK.woff2") format('woff2'),
-       url("../fonts/MAK.woff") format('woff'),
-       url("../fonts/MAK.eot") format('eot');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+*{
+  margin:0;
+  padding:0;
 }
+
+
 
 
 @font-face {
@@ -26,389 +20,220 @@
   font-display: swap;
 }
 
-li {
-  float: left;
-  list-style-type:none;
-  
-  text-align:center;
-}
 
-a {
-  display: block;
-  padding: 8px;
-  background-color: white;
-  text-align:center;
-}
+@font-face {
+	font-family: "gothampro_light";
+	src:
+		local("gothampro_light") ,
+		 local("gothampro_light"),
+		 url("gothampro_light.woff2") format('woff2'),
+		 url("gothampro_light.woff") format('woff'),
+		 url("gothampro_light.eot") format('eot');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+  }
 
-h1{ 
-text-align:center;
-font-size:170px;
-font-family:"MAK-bold";
-letter-spacing:  30px;
-padding-top:40px;
-color:white;
-/*text-shadow: white 5px 0 10px;*/
-}
+  @font-face {
+    font-family: "Hero-Light";
+    src:
+      local("Hero-Light") ,
+       local("Hero-Light"),
+       url("Hero-Light.woff2") format('woff2'),
+       url("Hero-Lightt.woff") format('woff'),
+       url("Hero-Light.eot") format('eot');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    }
 
- .w1{
-  
-	padding-left:60px;
-	padding-top:60px;
-	color:white;
-	font-size:30px;
-}
-
-/*-webkit-text-stroke: 4px white;
-
-/*#ad2e1c #001720 */
-header{
-background-image:url("denisvolkov.jpg");
-background-repeat : no-repeat;
-background-size:100% auto;
-height:100%;
-width:100%
-
-
-
-
-}
 
 body{
 	margin:0;
 }
 
-h2{
-	text-align:left;
-font-size:40px;
-font-family:"MAK";
-margin-left:30px;
-height:auto;
-}
-
-.block1{
-	background-color:white;
-	margin-top:250px;
-	
-	border: solid black;
-	height:auto;
-	display:flex;
-}
 
 
-.child1{
-  border-radius: 20px; /* Уголки */
-   max-width:350px;
-   margin:60px;
-   padding:50px;
-height: 300px;
-display: inline-block;
- margin-top:5px;
- 
-background: rgb(172,233,148);
-background: radial-gradient(circle, rgba(172,233,148,1) 15%, rgba(255,255,255,1) 100%);
-border: solid #ace994;
-border-width:10px;
-}
+.header {
 
-.child2{
-  border-radius: 20px; /* Уголки */
-   max-width:350px;
-   margin:56px;
-   padding:50px;
-   margin-top:5px;
-height: 300px;
-display: inline-block;
-border: solid #ace994;
-border-width:10px;
-background: rgb(172,233,148);
-background: radial-gradient(circle, rgba(172,233,148,1) 15%, rgba(255,255,255,1) 100%);
-}
-
-h2{text-align:center;}
-
-h4{text-align:center;}
-
-
-
-
-	
-h3{
-	font-family:"MAK";
-	text-align:center;
-	padding-top:5px;
-}
-
-#frame {
-	margin: 0 auto;
-	width: 550px;
-	max-width: 100%;
-	text-align: center;
-}
-
-#frame input[type=radio] {
-	display: none;
-}
-
-#frame label {
-	cursor: pointer;
-	text-decoration: none;
-}
-
-#slides {
-	
-	border: 5px solid green;
-	
-	position: relative;
-	z-index: 1;
-}
-
-#overflow {
-	width: 100%;
-	overflow: hidden;
-}
-
-#frame1:checked~#slides .inner {
-	margin-left: 0;
-}
-
-#frame2:checked~#slides .inner {
-	margin-left: -100%;
-}
-
-#frame3:checked~#slides .inner {
-	margin-left: -200%;
-}
-
-#frame4:checked~#slides .inner {
-	margin-left: -300%;
-}
-
-#slides .inner {
-	
-	width: 400%;
-	line-height: 0;
-	height: 300px;
-}
-
-#slides .frame {
-	width: 25%;
-	float: left;
-
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	color: #FFF;
-}
-
-#slides .frame_1 {
-	background:url("denisvolkov.jpg");
-}
-
-#slides .frame_2 {
-	background: url("altaaai.jpg");
-	background-size:100% auto;
-	background-repeat:no-repeat;
-}
-
-#slides .frame_3 {
-	background: url("background_mountains.jpg");
+	height:100vmin;
+	width: 100min;
+	object-fit:cover;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 
-#slides .frame_4 {
-background: url("back1.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
-}
 
-#controls {
-	margin: -180px 0 0 0;
-	width: 100%;
-	height: 50px;
-	z-index: 3;
-	position: relative;
-}
 
-#controls label {
-	transition: opacity 0.2s ease-out;
-	display: none;
-	width: 50px;
-	height: 50px;
-	opacity: .4;
-}
-
-#controls label:hover {
-	opacity: 1;
-}
-
-#frame1:checked~#controls label:nth-child(2),
-#frame2:checked~#controls label:nth-child(3),
-#frame3:checked~#controls label:nth-child(4),
-#frame4:checked~#controls label:nth-child(1) {
-	background:
-url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
-	float: right;
-	margin: 0 -50px 0 0;
-	display: block;
-}
-
-#frame1:checked~#controls label:nth-last-child(2),
-#frame2:checked~#controls label:nth-last-child(3),
-#frame3:checked~#controls label:nth-last-child(4),
-#frame4:checked~#controls label:nth-last-child(1) {
-	background:
-url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
-	float: left;
-	margin: 0 0 0 -50px;
-	display: block;
-}
-
-#bullets {
-	margin: 150px 0 0;
-	text-align: center;
-}
-
-#bullets label {
-	display: inline-block;
-	margin-top:10px;
-	width: 10px;
-	height: 10px;
-	border-radius: 20px;
-	background: #ccc;
-	margin: 0 10px;
-}
-
-#frame1:checked~#bullets label:nth-child(1),
-#frame2:checked~#bullets label:nth-child(2),
-#frame3:checked~#bullets label:nth-child(3),
-#frame4:checked~#bullets label:nth-child(4) {
-	background: #444;
-}
-
-@media screen and (max-width: 900px) {
-	#frame1:checked~#controls label:nth-child(2),
-	#frame2:checked~#controls label:nth-child(3),
-	#frame3:checked~#controls label:nth-child(4),
-	#frame4:checked~#controls label:nth-child(1),
-	#frame1:checked~#controls label:nth-last-child(2),
-	#frame2:checked~#controls label:nth-last-child(3),
-	#frame3:checked~#controls label:nth-last-child(4),
-	#frame4:checked~#controls label:nth-last-child(1) {
-		margin: 0;
-	}
-	#slides {
-		max-width: calc(100% - 140px);
-		margin: 0 auto;
-	}
+.header h1{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	padding-left: 100px;
+	font-size:120px;
+	color:rgb(46, 43, 43);
 	
-
-}
-.callback textarea {
-	background:transparent;
-	border:1px solid #fff;
-	padding:18px 28px;
-	width:100%;
-	font-size: 18px;
-	color:#fff;
-	margin:0 10px;
-	margin:o auto;
-	resize:none;
+	padding-left: 10%;
+	padding-top: 30vh;
 }
 
 
-.modal{
-	position:fixed;
-	left:0;
-	top:0;
-	width:100%;
-	height:100vh;
-	z-index:99998;
-	background-color:rgba(0,0,0,0.3);
-	display:grid;
-	align-items:center;
-	justify-content:center;
-	overline-y:auto;
-	visibility:hidden;
-	opasity:0;
-	transition: once .4s, visibility.4s;
-}
-
-.modal-box{
-	max-width:500px;
-	padding:45px;
-	z-index:1;
-	background-color:white;
-	margin:30px 15px;
-box-shadow: 32px 30px 18px -11px rgba(34, 60, 80, 0.2);
-transform:scale(0);
-transition: transform .8s;
-
-}
-
-.modal.open{
-		visibility:visible;
-	opasity:1;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 
-.modal.open .modal-box{
-	transform:scale(0);
-}
-
-
-/*<div class = ' callback'>
- <div class="container">
-    <h2 class="tittle">Хочется узнать что-то еще?</h2>
-	
-	<form action="#">
-	  <div class="row">
-	    <div class="col">
-		  <input type="text" id='name' placeholder="Введите ваше имя...">
-		  </div>
-<div class="col">
- <input type="tel" id='phone' placeholder="Введите ваш номер телефона...">
- <div class = "col">
-  <input type="email" id='emal' placeholder="Введите ваш emai...">
- </div>
- </div>
- </div>*/
-
-
-
-/*h3{font-family:"Source Serif Pro";}*/
-	
-
-
-
-/*<button id="open-modal">
-open modal window
-</button>
-
-<div class="modal">
-   <div class = 'modal-content'>
-     <p > text here </p>
-   </div>
-</div>
-.modal{
-  position: fixed;
-  z-index: 999 ;
-  left:0;
-  top:0;
-  width: 100%;
+html,
+body {
+  position: relative;
   height: 100%;
-  overflow:hidden;
-  background-color:rgba(0,0,0,0.4);
+}
 
+body {
+ 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+swiper-container {
+  width: 240px;
+  height: 320px;
+  position: absolute; 
+  top: 20%; 
+  right: 10%;
+}
+
+swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+swiper-slide:nth-child(1n) {
+  background-image:url("https://images.unsplash.com/photo-1628534795682-94f707b4ce9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80");
+   background-size:cover;
+  object-fit: cover;
 
 }
 
-.modal-content{
-  background: #fff;
-  padding:20px;
-  border:1px solid #888;
-  width: 50%;
-  box-sizing:border-box;
-  margin:0 auto;
+swiper-slide:nth-child(2n) {
+   background-image:url("https://i.pinimg.com/236x/15/9d/f6/159df6c661eb02101b3d7311c8f33cac.jpg");
+}
 
-}*/
+swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+
+
+
+@media (max-width: 1000px ){
+
+
+    .header h1{
+      font-family: MAK-bold;
+      padding-left: 30px;
+      font-size:200px;
+      color:rgb(46, 43, 43);
+      text-align:right;
+      padding-left: 10%;
+      padding-top: 3vh;
+      margin-right: 10px;
+      
+    }
+.img_head{
+  min-height: 100%;
+  min-width: 100%;
+  display:block;
+  margin-left:55px ;
+  margin-right:55px ;
+}
+
+hr{
+  border-top:3px solid yellow;
+  width:initial;
+  
+}
+.header p{
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: normal;
+  text-align:left ;
+  font-family: "Hero-Light";
+  padding-left: 30px;
+
+}
+
+.header{
+  margin-bottom:1200px ;
+ 
+}
+
+
+
+    h2,h3{
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      padding-left: 10px;
+      text-align: center;
+      font-size:90px;
+      letter-spacing: 3px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+
+    p{
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      line-height: 30px;
+      margin-bottom: 30px;
+      letter-spacing: 3px;
+      text-align: center;
+    }
+
+    .teleckoe img{
+      min-height: 100%;
+      min-width: 100%;
+    }
+
+    
+}
