@@ -12,9 +12,9 @@
   src:
       local("MAK-bold") ,
 	   local("MAK-bold"),
-       url("../fonts/MAK-bold.woff2") format('woff2'),
-       url("../fonts/MAK-bold.woff") format('woff'),
-       url("../fonts/MAK-bold.eot") format('eot');
+       url("project/MAK-bold.woff2") format('woff2'),
+       url("project/fonts/MAK-bold.woff") format('woff'),
+       url("project/fonts/MAK-bold.eot") format('eot');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
