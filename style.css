@@ -20,27 +20,14 @@
 }
 
 
-@font-face {
-	font-family: "gothampro_light";
-	src:
-	
-		 local("gothampro_light"),
-		 url("fonts/gothampro_light.woff2") format('woff2'),
-		 url("fonts/gothampro_light.woff") format('woff'),
-		 url("fonts/gothampro_light.eot") format('eot');
-	font-weight: 800;
-	font-style: normal;
-	font-display: swap;
-  }
 
   @font-face {
     font-family: "Hero-Light";
     src:
       local("Hero-Light") ,
-       local("Hero-Light"),
-       url("Hero-Light.woff2") format('woff2'),
-       url("Hero-Lightt.woff") format('woff'),
-       url("Hero-Light.eot") format('eot');
+       url("fonts/Hero-Light.woff2") format('woff2'),
+       url("fonts/Hero-Lightt.woff") format('woff'),
+       url("fonts/Hero-Light.eot") format('eot');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
