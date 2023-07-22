@@ -11,9 +11,9 @@
   font-family: "MAK-bold";
   src:
       local("MAK-bold") ,
-       src("/fonts/MAK-bold.woff2") format('woff2'),
-       src("/fonts//MAK-bold.woff") format('woff'),
-       src("/fonts//MAK-bold.eot") format('eot');
+       url("../fonts/MAK-bold.woff2") format('woff2'),
+       url("../fonts//MAK-bold.woff") format('woff'),
+       url("../fonts//MAK-bold.eot") format('eot');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
