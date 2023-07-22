@@ -12,8 +12,8 @@
   src:
       local("MAK-bold") ,
        url("fonts/MAK-bold.woff2") format('woff2'),
-       url("fonts//MAK-bold.woff") format('woff'),
-       url("fonts//MAK-bold.eot") format('eot');
+       url("fonts/MAK-bold.woff") format('woff'),
+       url("fonts/MAK-bold.eot") format('eot');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -23,11 +23,11 @@
 @font-face {
 	font-family: "gothampro_light";
 	src:
-		local("gothampro_light") ,
+	
 		 local("gothampro_light"),
-		 url("gothampro_light.woff2") format('woff2'),
-		 url("gothampro_light.woff") format('woff'),
-		 url("gothampro_light.eot") format('eot');
+		 url("fonts/gothampro_light.woff2") format('woff2'),
+		 url("fonts/gothampro_light.woff") format('woff'),
+		 url("fonts/gothampro_light.eot") format('eot');
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
