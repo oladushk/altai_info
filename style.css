@@ -201,19 +201,19 @@ hr{
   padding-top: 3%;
   object-fit: cover;
   padding-bottom:20%;
-  float:left;
+  float:center;
   height: 65%;
   width:86% ;
-  padding-left: 3%;
+  
 }
 
 .box3{
   padding-top: 70px;
   object-fit: cover;
-  float:right;
+  float:center;
   height: 55%;
   width:76% ;
-  padding-right: 2%;
+  
   
   
 }
