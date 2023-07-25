@@ -201,7 +201,8 @@ hr{
   padding-top: 3%;
   object-fit: cover;
   padding-bottom:20%;
-  float:center;
+	display:block;
+         margin:10px auto 20px;
   height: 65%;
   width:86% ;
   
@@ -210,7 +211,8 @@ hr{
 .box3{
   padding-top: 70px;
   object-fit: cover;
-  float:center;
+display:block;
+         margin:10px auto 20px;
   height: 55%;
   width:76% ;
   
