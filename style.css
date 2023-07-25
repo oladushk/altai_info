@@ -193,6 +193,7 @@ hr{
 
 .header{
   margin-bottom:1200px ;
+	margin:0;
  
 }
 
@@ -209,6 +210,7 @@ hr{
 .library{
 	display:flex;
 	justifay-content:center;
+	margin:0;
 }
 .box3{
   padding-top: 70px;
