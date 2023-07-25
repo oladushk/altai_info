@@ -196,7 +196,8 @@ hr{
  
 }
 
- .box2{
+.box2{
+ 
   padding-top: 3%;
   object-fit: cover;
   padding-bottom:20%;
@@ -207,7 +208,7 @@ hr{
 }
 
 .box3{
-  padding-top: 10%;
+  padding-top: 70px;
   object-fit: cover;
   float:right;
   height: 55%;
