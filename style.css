@@ -193,7 +193,7 @@ hr{
 
 .header{
   
-	margin:0;
+margin-bottom:1200px;
  
 }
 
@@ -202,7 +202,7 @@ hr{
   padding-top: 3%;
   object-fit: cover;
   padding-bottom:20%;
-	
+	margin:0;
   height: 65%;
   width:86% ;
   
