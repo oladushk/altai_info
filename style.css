@@ -207,7 +207,8 @@ hr{
   
 }
 .library{
-	text-align:center;
+	display:flex;
+	justifay-content:center;
 }
 .box3{
   padding-top: 70px;
