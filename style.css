@@ -196,7 +196,26 @@ hr{
  
 }
 
+ 
+  padding-top: 3%;
+  object-fit: cover;
+  padding-bottom:20%;
+  float:left;
+  height: 65%;
+  width:86% ;
+  padding-left: 3%;
+}
 
+.box3{
+  padding-top: 70px;
+  object-fit: cover;
+  float:right;
+  height: 55%;
+  width:76% ;
+  padding-right: 2%;
+  
+  
+}
 
     h2,h3{
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
