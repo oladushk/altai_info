@@ -201,20 +201,20 @@ hr{
   padding-top: 3%;
   object-fit: cover;
   padding-bottom:20%;
-	display:block;
-         margin:10px auto 20px;
+	
   height: 65%;
   width:86% ;
   
 }
-
+.library{
+	text-align:center;
+}
 .box3{
   padding-top: 70px;
   object-fit: cover;
-display:block;
-         margin:10px auto 20px;
-  height: 55%;
-  width:76% ;
+
+  height: 65%;
+  width:86% ;
   
   
   
