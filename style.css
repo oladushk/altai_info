@@ -1,8 +1,5 @@
 
-*{
-  margin:0;
-  padding:0;
-}
+
 
 @media (max-width: 1200px ){
 
@@ -136,9 +133,7 @@
     }
 
 
-body{
-	margin:0;
-}
+
 
 
 
@@ -173,24 +168,10 @@ body {
   height: 100%;
 }
 
-body {
- 
-  margin: 0;
-  padding: 0;
-}
 
-body {
 
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
 
-html,
-body {
-  position: relative;
-  height: 100%;
-}
+
 
 
 swiper-container {
