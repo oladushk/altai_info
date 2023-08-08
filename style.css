@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-
+body{
+	margin-top:0;}
 
 
 @font-face {
@@ -14,9 +15,9 @@
   src:
       local("MAK-bold") ,
 	   local("MAK-bold"),
-       url("fonts-copy/MAK-bold.woff2") format('woff2'),
-       url("fonts-copy/MAK-bold.woff") format('woff'),
-       url("fonts-copy/MAK-bold.eot") format('eot');
+       url("fonts/MAK-bold.woff2") format('woff2'),
+       url("fonts/MAK-bold.woff") format('woff'),
+       url("fonts/MAK-bold.eot") format('eot');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -27,26 +28,15 @@
   src:
     local("Hero-Regular") ,
   
-     url("fonts-copy/Hero-Regular.woff2") format('woff2'),
-     url("fonts-copy/Hero-Regular.woff") format('woff'),
-     url("fonts-copy/Hero-Regular.eot") format('eot');
+     url("fonts/Hero-Regular.woff2") format('woff2'),
+     url("fonts/Hero-Regular.woff") format('woff'),
+     url("fonts/Hero-Regular.eot") format('eot');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
   }
 
-  @font-face {
-    font-family: "Hero-Light";
-    src:
-      local("Hero-Light") ,
-       local("Hero-Light"),
-       url("fonts-copy/Hero-Light.woff2") format('woff2'),
-       url("fonts-copy/Hero-Lightt.woff") format('woff'),
-       url("fonts-copy/Hero-Light.eot") format('eot');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-    }
+
 
 
 
