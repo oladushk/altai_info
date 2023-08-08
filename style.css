@@ -223,8 +223,10 @@ swiper-slide:nth-child(10n) {
       font-size:60px;
     } 
     p{ 
+p{ 
       font-family:"Hero-Regular";
       line-height: 30px;
+      margin-bottom: 30px;
       letter-spacing: 3px;
       text-align: center;
       margin-left:15%;
