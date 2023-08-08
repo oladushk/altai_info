@@ -142,6 +142,9 @@ swiper-slide:nth-child(10n) {
 
 
 
+    
+    
+
 @media (max-width: 1000px ){
 
   *{
@@ -222,7 +225,6 @@ swiper-slide:nth-child(10n) {
       margin-left:10%;
       font-size:60px;
     } 
-  
     p{ 
       font-family:"Hero-Regular";
       line-height: 30px;
@@ -232,7 +234,6 @@ swiper-slide:nth-child(10n) {
       margin-left:15%;
       font-size: 100px;
     }
-
 
     .main h1{
       font-family:"MAK-bold";
@@ -274,9 +275,7 @@ width: 90%;
       width:500px;
       object-fit: cover;
       border-radius:3% ;
-      margin-left:auto;
-	    margin-right:auto;
-	    display:block;
+      margin-left:30px;
    margin-top:30px;
     }
     .n{
@@ -332,7 +331,7 @@ margin-bottom:5%;
 } 
 
 .katy_ya{
-  height:80%;
+  height:500px;
   border-radius: 3%;
   margin-left:10%;
   margin-top:5%;
@@ -374,3 +373,13 @@ margin-bottom:5%;
 
 
 
+	
+
+	
+
+
+
+
+
+
+  
