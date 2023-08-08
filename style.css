@@ -140,7 +140,11 @@ swiper-slide:nth-child(10n) {
 
 
 @media (max-width: 1000px ){
-
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
     .header h1{
       font-family: MAK-bold;
       padding-left: 30px;
