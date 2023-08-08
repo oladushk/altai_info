@@ -225,11 +225,11 @@ swiper-slide:nth-child(10n) {
     p{ 
       font-family:"Hero-Regular";
       line-height: 30px;
-      margin-bottom: 30px;
       letter-spacing: 3px;
       text-align: center;
       margin-left:15%;
-      font-size: 100x;
+      font-size: 100px;
+  
     }
 
     .main h1{
@@ -282,9 +282,8 @@ width: 90%;
       width:500px;
       object-fit: cover;
         border-radius:3% ;
-        margin-left:auto;
-        margin-right:auto;
-	    display:block;
+        margin-left:30%;
+        
     }
 
 
@@ -370,6 +369,9 @@ margin-bottom:5%;
 }
 
 }
+
+
+
 
 
 
