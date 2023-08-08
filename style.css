@@ -241,8 +241,10 @@ swiper-slide:nth-child(10n) {
 object-fit: cover;
 height: 80%;
 width: 90%;
+	   border-radius:3% ;  
     display:block;
-    margin: 100px;
+    margin:auto;
+	    
     }
 /* .images{
   display:inline-block;
@@ -261,7 +263,7 @@ width: 90%;
       height: 500px;
       width:200px;
       margin-left: 30%;
-    
+     border-radius:3% ;
    margin-top:3px;
     }
 
