@@ -6,8 +6,7 @@
   box-sizing: border-box;
 }
 
-body{
-	margin-top:0;}
+
 
 
 @font-face {
@@ -35,7 +34,6 @@ body{
   font-style: normal;
   font-display: swap;
   }
-
 
 
 
@@ -142,15 +140,11 @@ swiper-slide:nth-child(10n) {
 
 
 
-    
-    
-
 @media (max-width: 1000px ){
 
   *{
     margin:0px;
     padding: 0px;
-    
     box-sizing: border-box;
   }
     .header h1{
