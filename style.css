@@ -139,7 +139,7 @@ swiper-slide:nth-child(10n) {
 
 
 
-@media (max-width: 1000px ){
+@media (max-width: 1100px ){
 *{
   margin:0px;
   padding: 0px;
@@ -206,10 +206,6 @@ swiper-slide:nth-child(10n) {
   margin-bottom: 10px;
 }
 
-.header{
-  margin-bottom:1200px ;
- 
-}
 
     h2,h3{
       font-family:"Hero-Regular";
