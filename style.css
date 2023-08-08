@@ -223,7 +223,7 @@ swiper-slide:nth-child(10n) {
       font-size:60px;
     } 
   
-p{ 
+    p{ 
       font-family:"Hero-Regular";
       line-height: 30px;
       margin-bottom: 30px;
@@ -231,8 +231,8 @@ p{
       text-align: center;
       margin-left:15%;
       font-size: 100px;
-  
     }
+
 
     .main h1{
       font-family:"MAK-bold";
