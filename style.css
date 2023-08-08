@@ -140,11 +140,7 @@ swiper-slide:nth-child(10n) {
 
 
 @media (max-width: 1000px ){
-*{
-  margin:0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
+
     .header h1{
       font-family: MAK-bold;
       padding-left: 30px;
@@ -156,7 +152,13 @@ swiper-slide:nth-child(10n) {
       margin-right: 10px;
       
     }
-  
+  *{
+  margin:0px;
+  padding: 0px;
+  min-width: min-content;
+  min-height: min-content;
+  box-sizing: border-box;
+}
 
 .header{
   margin-bottom:1200px ;
@@ -301,14 +303,14 @@ border-radius: 3%;
     height: 600px;
 width: 490px;
 margin-right:6%;
-margin-top:10%;
+margin-top:10%;object-fit: cover;
   }
 
  .kursay{
   height:600px;
   width:300px;
   border-radius: 3%;
- 
+ object-fit: cover;
   margin-left:2%;
   margin-top:30px;
   border-radius: 3%;
@@ -321,6 +323,7 @@ margin-top:10%;
 margin-left:30%;
 margin-top:5%;
 margin-bottom:5%;
+	 object-fit: cover;
 } 
 
 .katy_ya{
@@ -329,7 +332,7 @@ margin-bottom:5%;
   margin-left:10%;
   margin-top:5%;
   margin-bottom:5%;
-     
+     object-fit: cover;
 }
 
 .geyzer{
@@ -337,7 +340,7 @@ margin-bottom:5%;
   width:500px;
   border-radius: 3%;
   margin-left:7%;
-  margin-top:5%;
+  margin-top:5%;object-fit: cover;
 }
 
 .karakolsk{
@@ -347,6 +350,7 @@ margin-bottom:5%;
   border-radius: 3%;
   margin-top:5%;
   margin-bottom:5%;
+	object-fit: cover;
 }
 
 
