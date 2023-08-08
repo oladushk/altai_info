@@ -139,7 +139,7 @@ swiper-slide:nth-child(10n) {
 
 
 
-@media (max-width: 1100px ){
+@media (max-width: 1000px ){
 *{
   margin:0px;
   padding: 0px;
