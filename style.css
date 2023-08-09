@@ -171,6 +171,7 @@ swiper-slide:nth-child(10n) {
   }
   
 
+
 .header p{
   font-size: 40px;
   letter-spacing: 1px;
@@ -184,14 +185,10 @@ swiper-slide:nth-child(10n) {
 }
 
 .cont_forTEXT{
-  border:3px solid yellow;
-  padding:5px;
-  margin-left:55px ;
-  margin-right:55px ;
-  height: auto;
-  margin-bottom: 10px;
-}
-
+width: 60%;
+margin-bottom:10%;
+ float:left;
+} 
 
     h2,h3{
       font-family:"Hero-Regular";
@@ -223,6 +220,7 @@ width: 90%;
 	   border-radius:3% ;  
     display:block;
     margin:auto;
+	    margin-bottom:5%;
 	    
     }
 /* .images{
