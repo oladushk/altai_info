@@ -164,12 +164,6 @@ swiper-slide:nth-child(10n) {
  
 }
 
-  .headimg{
-    min-width: 100%;
-  min-height: 100%;
-  border-radius: 3%;
-  }
-  
 
 
 .header p{
@@ -187,7 +181,7 @@ swiper-slide:nth-child(10n) {
 .cont_forTEXT{
 width: 60%;
 margin-bottom:10%;
- float:left;
+ 
 } 
 
     h2,h3{
