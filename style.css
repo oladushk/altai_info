@@ -144,7 +144,7 @@ swiper-slide:nth-child(10n) {
     .header h1{
       font-family: MAK-bold;
       padding-left: 30px;
-      font-size:400px;
+      width:100%;
       color:rgb(46, 43, 43);
       text-align:center;
      
