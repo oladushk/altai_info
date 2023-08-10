@@ -36,14 +36,14 @@
     p{ 
       font-family:"Hero-Regular";
    
-      font-size: 10px;
+      font-size: 64px;
     }
 
 
     .header h1{
       font-family: MAK-bold;
       padding-left: 30px;
-    font-size:200px;
+    font-size:180px;
       color:rgb(46, 43, 43);
       text-align:center;
      
@@ -51,7 +51,19 @@
       
     }
 
-
+.main h1{
+	  font-family: MAK-bold;
+      padding-left: 30px;
+    font-size:150px;
+      color:yellow;
+      text-align:right;
+}
+    h2,h3{
+      font-family:"Hero-Regular";
+      margin-bottom: 30px;
+      margin-left:10%;
+      font-size:60px;
+    } 
 
 .header {
 
@@ -66,7 +78,6 @@
 
 
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 
 
@@ -74,11 +85,6 @@
 
 
 
-/* html,
-body {
-  position: relative;
-  height: 100%;
-} */
 
 
 
