@@ -245,7 +245,7 @@ margin-bottom:5%;
   .chedor{
     float:right;
 border-radius: 3%;
-    height: 600px;
+    height: 500px;
 width: 490px;
 margin-right:6%;
 margin-top:10%;
@@ -253,8 +253,8 @@ margin-top:10%;
   }
 
  .kursay{
-  height:600px;
-  width:300px;
+  height:500px;
+  width:200px;
   border-radius: 3%;
  object-fit: cover;
   margin-left:2%;
