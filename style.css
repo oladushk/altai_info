@@ -77,7 +77,16 @@
 
 
 
-
+    .imgtel{
+object-fit: cover;
+height: 80%;
+width: 90%;
+border-radius:3% ;  
+    display:block;
+    margin:auto;
+margin-bottom:5%;
+	    
+    }
 
 
 
