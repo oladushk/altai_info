@@ -249,7 +249,7 @@ margin-left:10%;
 width:50%;
 font-size: 24px;
 margin-top:5%;
-
+margin-right:3%;
 }
 
 .FLO{
@@ -308,11 +308,13 @@ margin-top:6%;
 }
 	.mush p{
 		float:right;
+		font-size:25px;
+		nargin-top:5%;
 	}
  .mushrooms{
 	 float:left;
   height:60%;
-  width:70%;
+  width:100%;
   border-radius: 3%;
 margin-left:30%;
 margin-top:5%;
@@ -332,7 +334,7 @@ object-fit: cover;
 
 .geyzer{
   height:60%;
-  width:80%;
+  width:70%;
   border-radius: 3%;
   margin-left:7%;
   margin-top:5%;]
@@ -340,8 +342,8 @@ object-fit: cover;
 }
 
 .karakolsk{
-  height:400px;
-  width:600px;
+  height:500px;
+  width:700px;
   margin-left:20%;
   border-radius: 3%;
   margin-top:5%;
