@@ -183,7 +183,11 @@
 }
 
 
-
+.map{
+	  margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
 .tel{
   display:flex;
   justify-content: space-between;
@@ -257,7 +261,7 @@ margin-right:3%;
     justify-content: space-between;
 }
   .korby{
-    margin-top: 30px;
+  margin-top:4%;
     border-radius: 3%;
 	    height:70%;
 width: 50%;
@@ -268,8 +272,9 @@ width: 50%;
 	.kor{    display:flex;
     justify-content: space-between;}
 	.kor p{
-		margin-top:10%;
-		text-align:left;
+		margin-top:4%;
+		text-align:lef;
+		width:40%;
 	}
   .ched{
     display:flex;
@@ -277,8 +282,8 @@ width: 50%;
     
   }
 	.che p{
-		margin-top:10%;
-		
+		margin-top:8%;
+		font-size:22px;
 	}
 .che{
  text-align: left;
@@ -290,7 +295,7 @@ border-radius: 3%;
    height:40%;
 width: 30%;
 margin-right:6%;
-margin-top:6%;
+margin-top:5%;
 	  object-fit: cover;
   }
 
@@ -299,8 +304,9 @@ margin-top:6%;
 	width:70%;
   border-radius: 3%;
  object-fit: cover;
-  margin-left:10%;
-  margin-top:30px;
+   margin-left:auto;
+	margin-right:auto;
+	display:block;
   border-radius: 3%;
 } 
 	.mush{
@@ -310,7 +316,7 @@ margin-top:6%;
 	.mush p{
 		float:right;
 		font-size:25px;
-		nargin-top:5%;
+		margin-top:10%;
 	}
  .mushrooms{
 	 float:left;
@@ -329,7 +335,7 @@ object-fit: cover;
   border-radius: 3%;
   margin-left:auto;
 	margin-right:auto;
-	display:auto;
+	display:block;
   margin-top:5%;
   margin-bottom:5%;
      object-fit: cover;
