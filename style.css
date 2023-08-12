@@ -280,10 +280,10 @@ margin-top:6%;
 
  .kursay{
   height:500px;
-  width:200px;
+  width:400px;
   border-radius: 3%;
  object-fit: cover;
-  margin-right:2%;
+  margin-left:10%;
   margin-top:30px;
   border-radius: 3%;
 } 
@@ -294,7 +294,7 @@ margin-top:6%;
 margin-left:30%;
 margin-top:5%;
 margin-bottom:5%;
-	 object-fit: cover;
+object-fit: cover;
 } 
 
 .katy_ya{
@@ -308,16 +308,17 @@ margin-bottom:5%;
 }
 
 .geyzer{
-  height:700px;
-  width:500px;
+  height:60%;
+  width:80%;
   border-radius: 3%;
   margin-left:7%;
-  margin-top:5%;object-fit: cover;
+  margin-top:5%;]
+  object-fit: cover;
 }
 
 .karakolsk{
-  height:600px;
-  width:400px;
+  height:400px;
+  width:600px;
   margin-left:20%;
   border-radius: 3%;
   margin-top:5%;
