@@ -1,4 +1,6 @@
-*{
+@media (min-width: 1201px) {
+	
+	*{
   margin:0px;
   padding: 0px;
   box-sizing: border-box;
@@ -340,7 +342,7 @@ object-fit: cover;
 }
 
 
-
+	  }
 
 
 
