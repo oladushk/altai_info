@@ -262,6 +262,13 @@ margin-top:5%;
 	    height:50%;
 width: 60%;
   }
+
+	.kor{    display:flex;
+    justify-content: space-between;}
+	.kor p{
+		margin-top:10%;
+		text-al
+	}
   .ched{
     display:flex;
     justify-content: space-between;
