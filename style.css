@@ -340,7 +340,7 @@ object-fit: cover;
   width:70%;
   border-radius: 3%;
   margin-left:7%;
-  margin-top:5%;]
+  margin-top:5%;
   object-fit: cover;
 }
 
@@ -589,16 +589,20 @@ width: 90%;
     .mor{
       object-fit: cover;
       height: 500px;
-      width:200px;
-      margin-left: 3%;
+      width:300px;
+      margin-left: auto;
+	margin-right: auto;    
       border-radius:3% ;
    margin-top:30px;
+	     display:block;
     }
     .flower{
       object-fit: cover;
-      height: 500px;
-      width:200px;
-      margin-left: 30%;
+        height: 500px;
+      width:300px;
+      margin-left: auto;
+	margin-right: auto; 
+	    display:block;
      border-radius:3% ;
    margin-top:3px;
     }
@@ -623,7 +627,7 @@ width: 90%;
 
 
   .korby{
-    margin-top: 30px;
+    margin-top: 3%;
     border-radius: 6%;
   }
   .ched{
@@ -643,8 +647,9 @@ border-radius: 3%;
 width: 490px;
 	  margin-right:2%;
 	  
-margin-right:6%;
-margin-top:10%;object-fit: cover;
+
+margin-top:10%;
+	  object-fit: cover;
   }
 
  .kursay{
@@ -652,14 +657,16 @@ margin-top:10%;object-fit: cover;
   width:300px;
   border-radius: 3%;
  object-fit: cover;
-  margin-left:2%;
+  margin-left: auto;
+	margin-right: auto; 
+	    display:block;
   margin-top:30px;
   border-radius: 3%;
 } 
 
  .mushrooms{
-  height:500px;
-  width:400px;
+  height:600px;
+  width:500px;
   border-radius: 3%;
 margin-left:30%;
 margin-top:5%;
@@ -669,9 +676,11 @@ margin-bottom:5%;
 
 .katy_ya{
   height:500px;
-	width:400px;
+	width:600px;
   border-radius: 3%;
-  margin-left:10%;
+  margin-left: auto;
+	margin-right: auto; 
+	    display:block;
   margin-top:5%;
   margin-bottom:5%;
      object-fit: cover;
@@ -681,14 +690,19 @@ margin-bottom:5%;
   height:700px;
   width:500px;
   border-radius: 3%;
-  margin-left:7%;
+  margin-left: auto;
+	margin-right: auto; 
+	    display:block;
   margin-top:5%;object-fit: cover;
 }
 
 .karakolsk{
   height:600px;
-  width:400px;
-  margin-left:20%;
+  width:500px;
+	  margin-left: auto;
+	margin-right: auto; 
+	    display:block;
+
   border-radius: 3%;
   margin-top:5%;
   margin-bottom:5%;
