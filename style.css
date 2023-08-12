@@ -261,13 +261,14 @@ margin-top:5%;
     border-radius: 3%;
 	    height:50%;
 width: 60%;
+	  float:right;
   }
 
 	.kor{    display:flex;
     justify-content: space-between;}
 	.kor p{
 		margin-top:10%;
-		text-al
+		text-align:left;
 	}
   .ched{
     display:flex;
@@ -276,6 +277,7 @@ width: 60%;
   }
 	.che p{
 		margin-top:10%;
+		
 	}
 .che{
  text-align: left;
@@ -309,8 +311,8 @@ margin-top:6%;
 	}
  .mushrooms{
 	 float:left;
-  height:500px;
-  width:400px;
+  height:60%;
+  width:70%;
   border-radius: 3%;
 margin-left:30%;
 margin-top:5%;
