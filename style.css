@@ -141,7 +141,7 @@
       font-family:"Hero-Regular";
       text-align:left;
 	    width:70%;
-      font-size: 19px;
+      font-size: 21px;
       margin-left:5%;
      
     }
@@ -257,8 +257,10 @@ margin-top:5%;
     justify-content: space-between;
 }
   .korby{
-    padding-top: 30px;
-    border-radius: 6%;
+    margnin-top: 30px;
+    border-radius: 3%;
+	    height:50%;
+width: 60%;
   }
   .ched{
     display:flex;
@@ -291,7 +293,15 @@ margin-top:6%;
   margin-top:30px;
   border-radius: 3%;
 } 
+	.mush{
+	    display:flex;
+    justify-content: space-between;
+}
+	.mush p{
+		float:right;
+	}
  .mushrooms{
+	 float:left;
   height:500px;
   width:400px;
   border-radius: 3%;
