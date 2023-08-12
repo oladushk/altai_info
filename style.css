@@ -257,10 +257,11 @@ margin-right:3%;
     justify-content: space-between;
 }
   .korby{
-    margnin-top: 30px;
+    margin-top: 30px;
     border-radius: 3%;
-	    height:50%;
-width: 60%;
+	    height:70%;
+width: 50%;
+	   object-fit: cover;
 	  float:right;
   }
 
