@@ -536,6 +536,13 @@ height:60%;
 }
 
 
+.map{
+	  margin-left:auto;
+	margin-right:auto;
+	display:block;
+	height:100%;
+	width:100%;
+}
 
 .header p{
   font-size: 40px;
@@ -594,8 +601,8 @@ width: 90%;
 } */
     .mor{
       object-fit: cover;
-      height: 500px;
-      width:300px;
+      height: 600px;
+      width:500px;
       margin-left: auto;
 	margin-right: auto;    
       border-radius:3% ;
@@ -604,8 +611,8 @@ width: 90%;
     }
     .flower{
       object-fit: cover;
-        height: 500px;
-      width:300px;
+        height: 600px;
+      width:500px;
       margin-left: auto;
 	margin-right: auto; 
 	    display:block;
@@ -635,6 +642,10 @@ width: 90%;
   .korby{
     margin-top: 3%;
     border-radius: 6%;
+	  
+	  margin-left:auto;
+	margin-right:auto;
+	display:block;
   }
   .ched{
     display:flex;
@@ -659,8 +670,8 @@ margin-top:10%;
   }
 
  .kursay{
-  height:600px;
-  width:300px;
+  height:55%;
+  width:70%;;
   border-radius: 3%;
  object-fit: cover;
   margin-left: auto;
@@ -703,7 +714,7 @@ margin-bottom:5%;
 }
 
 .karakolsk{
-  height:600px;
+  height:800px;
   width:500px;
 	  margin-left: auto;
 	margin-right: auto; 
