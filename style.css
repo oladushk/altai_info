@@ -593,10 +593,9 @@ width: 90%;
     }
 
 .map{
-	height:100%;
-	width:50%;
-	 display:block;
-    margin:auto;
+	min-height:100%;
+	min-width:100%;
+
 }
 
 	
