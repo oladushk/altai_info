@@ -184,12 +184,8 @@
 
 
 .map{
-	  margin-left:auto;
-	margin-right:auto;
-	display:block;
-	object-fit: cover;
-min-height: 100%;
-min-width: 100%;
+
+width: 100%;
 }
 .tel{
   display:flex;
@@ -540,9 +536,7 @@ height:60%;
 
 
 .map{
-	  margin-left:auto;
-	margin-right:auto;
-	display:block;
+	
 	height:100%;
 	width:100%;
 }
@@ -570,7 +564,9 @@ margin-bottom:10%;
       margin-bottom: 30px;
       margin-left:10%;
       font-size:60px;
+	    font-weight:bolder;
     } 
+	
     p{ 
       font-family:"Hero-Regular";
       line-height: 30px;
@@ -674,7 +670,7 @@ margin-top:10%;
 
  .kursay{
   height:55%;
-  width:70%;;
+  width:70%;
   border-radius: 3%;
  object-fit: cover;
   margin-left: auto;
@@ -695,8 +691,8 @@ margin-bottom:5%;
 } 
 
 .katy_ya{
-  height:500px;
-	width:600px;
+   height:55%;
+  width:70%;
   border-radius: 3%;
   margin-left: auto;
 	margin-right: auto; 
