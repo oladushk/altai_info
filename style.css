@@ -183,10 +183,7 @@
 }
 
 
-.map{
 
-width: 100%;
-}
 .tel{
   display:flex;
   justify-content: space-between;
@@ -564,7 +561,7 @@ margin-bottom:10%;
       margin-bottom: 30px;
       margin-left:10%;
       font-size:60px;
-	    font-weight:bolder;
+	   font-weight: bold;
     } 
 	
     p{ 
