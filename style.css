@@ -140,6 +140,13 @@
 	.header{
 		color:#68763B
 	}
+
+	.header img{
+		height:90%;
+		width:70%;
+		margin-top:4%;
+		margin-left:2%;
+	}
      p{ 
       font-family:"Hero-Regular";
       text-align:left;
