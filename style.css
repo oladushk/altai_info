@@ -147,7 +147,7 @@
     }
 
 .map{
-	height:80%;
+	height:100%;
 	width:90%;
 	 display:block;
     margin:auto;
@@ -537,11 +537,6 @@ height:60%;
 }
 
 
-.map{
-	
-	
-	width:50%;
-}
 
 .header p{
   font-size: 40px;
@@ -598,8 +593,8 @@ width: 90%;
     }
 
 .map{
-	height:80%;
-	width:90%;
+	height:100%;
+	width:50%;
 	 display:block;
     margin:auto;
 }
