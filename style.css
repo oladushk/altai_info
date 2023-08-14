@@ -69,9 +69,12 @@
 		.box{
 			width:100%;
 			height:100%;
-			color:#040203;
+			background-color:#040203;
 		}
-
+	.box p{
+		text-align:center;
+                           width:100%;
+			height:100%;}
 .main h1{
 	  font-family: MAK-bold;
       padding-left: 30px;
