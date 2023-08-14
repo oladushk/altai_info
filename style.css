@@ -71,16 +71,16 @@
 			
 			background-color:#040203;
 			background-size:100%;
-			margin-top:0px;
-			background-height:100px;
-			padding-top:0px;
+			margin-top:0;
+			
+			
 		      height:500px;
 		
 			
 		}
 	.box p{
 		text-align:center;
-                      
+                      top:50%;
 	color:white;
 	}
 	
