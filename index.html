@@ -29,66 +29,14 @@
       <li><a href="#patmos">Патмос</a></li
     </ul>
 
-    <button class="burger hidden">
-      <svg width="30" height="40">
-        <circle cx="15" cy="10" r="2" fill="#fff"></circle>
-        <circle cx="15" cy="20" r="2" fill="#fff"></circle>
-        <circle cx="15" cy="30" r="2" fill="#fff"></circle>
-      </svg>
-      <div class="burger-count"></div>
-    </button>
-    <ul class="hidden-menu"></ul>
-  </nav>
-
-<script>
- const nav = document.querySelector('.nav');
-const vMenu = document.querySelector('.visible-menu');
-const hMenu = document.querySelector('.hidden-menu');
-const burger = document.querySelector('.burger');
-
-let count = document.querySelector('.burger-count');
-let breaks = [];
-
-function updateNav() {
-  // получаем ширину всего меню
-  let navWidth = burger.classList.contains('hidden') ? nav.offsetWidth : nav.offsetWidth - burger.offsetWidth;
-  let vMenuWidth = vMenu.offsetWidth;
-  if (vMenuWidth > navWidth) {
-    breaks.push(vMenuWidth);
-    hMenu.prepend(vMenu.lastElementChild);
-    burger.classList.remove('hidden');
-    count.innerText = breaks.length;
-    updateNav();
-  }
-  else {
-    if (navWidth > breaks[breaks.length - 1]) {
-      breaks.pop();
-      vMenu.append(hMenu.firstElementChild);
-      count.innerText = breaks.length;
-    }
-    if (breaks.length < 1) {
-      burger.classList.add('hidden');
-      hMenu.classList.remove('active');
-    }
-  }
-}
-
-burger.addEventListener('click', function () {
-  hMenu.classList.toggle('active');
-  burger.classList.toggle('active');
-});
-
-window.addEventListener('resize', updateNav);
-document.addEventListener('DOMContentLoaded', updateNav);
-</script>
 
   <div class="wrapper">
 
   <div class="header">
 
 
- <img class="headimg" src="https://images.unsplash.com/photo-1619426186551-ecd958d08277?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1048&q=80">
-    <h1>АЛТАЙ</h1>
+ <img class="headimg" src="https://img.freepik.com/free-photo/beautiful-sunset-in-the-mountains-landscape-with-sun-light-shining-through-orange-clouds-and-fog_146671-18476.jpg?w=740&t=st=1691999124~exp=1691999724~hmac=778f2bdd44dadf3975483595bed8f0bd0f6cc1c18e2f10c095e5e6566ab9d616">
+    <h1>Алтай</h1>
  
     <div class="cont_forTEXT"><p>Алтай в переводе означает "Золотые горы".Попадая в это место ,  вы попадаете в край , где сможете насладиться красотой нетронутой природы , высокими горами , озерами и реками с кристально чистой водой.</p> </div>
   </div>
