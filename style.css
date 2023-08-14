@@ -45,9 +45,10 @@
 	}
 
 	.header img{
-		height:60%;
+		height:50%;
 		width:100%;
-		margin-top:0;
+		
+		object-fit:cover;
 	
 	}
      p{ 
