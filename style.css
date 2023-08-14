@@ -94,15 +94,10 @@
       font-weight: bold;
     } 
 
-.header {
-
-	height:100vmin;
-	width: 100min;
-	object-fit:cover;
-	background-size:cover;
-	background-repeat:no-repeat;
+.main{
+	margin-top:7%;
+	padding-top:7%;
 }
-
 
 
 .tel{
