@@ -45,10 +45,10 @@
 	}
 
 	.header img{
-		height:70%;
+		height:90%;
 		width:100%;
 		margin-top:2%;
-		margin-left:2%;
+	
 	}
      p{ 
       font-family:"Hero-Regular";
@@ -63,7 +63,7 @@
 	height:400px;
 	width:90%;
 	 display:block;
-    margin:auto;
+    margin-top:10%;
 }
 
 		.box{
@@ -75,7 +75,10 @@
 	.box p{
 		text-align:center;
                            width:100%;
-			height:100%;}
+			height:100%;
+	color:white;
+	}
+	
 .main h1{
 	  font-family: MAK-bold;
       padding-left: 30px;
