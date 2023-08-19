@@ -359,10 +359,10 @@ height:60%;
 	margin:0;
 }
 .header p{
-  font-size: 50px;
+  font-size: 70px;
   letter-spacing: 2px;
   line-height: normal;
-  margin-top:7%;
+  margin-top:12%;
 	
   font-family: "Hero-Regular";
  
@@ -381,7 +381,7 @@ margin-bottom:10%;
       margin-left:10%;
       font-size:90px;
 	    color:#105BF6;
-	   font-weight: bold;
+	   font-weight: 900;
     } 
 	
     p{ 
