@@ -358,14 +358,15 @@ height:60%;
 	width:100%;
 }
 .header p{
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: 1px;
   line-height: normal;
-  text-align:left ;
+  margin-top:7%;
+	
   font-family: "Hero-Regular";
-  padding-left: 55px;
-  margin-left:55px ;
-  margin-right:55px ;
+ 
+  margin-left:auto ;
+  margin-right:auto ;
 
 }
 
@@ -379,7 +380,8 @@ margin-bottom:10%;
       font-family:"Hero-Regular";
       margin-bottom: 30px;
       margin-left:10%;
-      font-size:60px;
+      font-size:90px;
+	    color:#105BF6;
 	   font-weight: bold;
     } 
 	
@@ -482,7 +484,7 @@ width: 90%;
   }
 .che{
  text-align: left;
- margin-top:30px;
+ margin-top:35px;
 }
 	
   .chedor{
@@ -490,7 +492,7 @@ width: 90%;
 border-radius: 3%;
     height: 600px;
 width: 490px;
-	  margin-right:2%;
+	  margin-right:3%;
 	  
 
 margin-top:10%;
