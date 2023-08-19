@@ -391,6 +391,9 @@ margin-left:5%;
   font-family: "Hero-Regular";
     }
 
+	.main{
+		margin-top:3%;}
+
     .main h1{
       font-family:"MAK-bold";
       margin-right: auto;
@@ -415,7 +418,7 @@ width: 90%;
 	width:100%;
 	margin:auto;
 	display:block;
-	margin-top:3%;
+
 
 }
 
