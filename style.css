@@ -140,9 +140,9 @@ margin-top:30%;
 .fl{
 	  display:flex;
   justify-content: space-between;}
-    .aust,.sapsan,.n{
+  .n{
       height:300px;
-width:400px;
+width:500px;
       object-fit: cover;
       border-radius:3% ;
       
@@ -434,9 +434,9 @@ width: 90%;
  .fl{
 	  display:flex;
   justify-content: space-between;}
-    .aust,.sapsan,.n{
+    .n{
       height:300px;
-width:173px;
+width:503px;
       object-fit: cover;
       border-radius:3% ;
       
