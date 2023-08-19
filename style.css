@@ -398,20 +398,9 @@ width: 90%;
 	    
     }
 
-.map{
-	height:800px;
-	
-	margin:auto;
-	display:block;
 
-
-}
 
 	
-/* .images{
-  display:inline-block;
-  
-} */
     .mor{
       object-fit: cover;
       height: 600px;
@@ -433,21 +422,16 @@ width: 90%;
    margin-top:3px;
     }
 
-    .aust,.sapsan{
-      height:400px;
-      width:500px;
+ .fl{
+	  display:flex;
+  justify-content: space-between;}
+    .aust,.sapsan,.n{
+      height:60%;
+width:50%;
       object-fit: cover;
       border-radius:3% ;
-      margin-left:30px;
+      
    margin-top:30px;
-    }
-    .n{
-      height:400px;
-      width:500px;
-      object-fit: cover;
-        border-radius:3% ;
-        margin-left:30%;
-        
     }
 
 
