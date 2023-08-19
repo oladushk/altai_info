@@ -394,8 +394,9 @@ margin-left:5%;
     .main h1{
       font-family:"MAK-bold";
       margin-right: auto;
-     font-size: 180px;
+     font-size: 200px;
      margin-bottom: 30px;
+	     text-shadow:20px -52px #105BF6;
     
     }
     .imgtel{
