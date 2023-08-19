@@ -347,7 +347,9 @@ height:60%;
   letter-spacing: 2px;
   line-height: normal;
   margin-top:12%;
-	
+		border:7px;
+		border-radius:6%;
+	    color:#105BF6;
   font-family: "Hero-Regular";
  
 text-align:center;
@@ -357,7 +359,14 @@ text-align:center;
 width: 60%;
 margin-bottom:10%;
  
-} 
+}
+
+	.header{
+		border:13px;
+		border-radius:6%;
+	    color:#105BF6;
+	}
+		
 
     h2,h3{
       font-family:"Hero-Regular";
