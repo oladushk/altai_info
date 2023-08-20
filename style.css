@@ -336,7 +336,10 @@ height:60%;
   box-sizing: border-box;
 }
 
-
+.box{
+	 border:7px;
+		border-radius:6%;
+	    border-color:#105BF6;}
 
 .header img{
 	width:100%;
@@ -356,9 +359,7 @@ text-align:center;
 .cont_forTEXT{
 width: 60%;
 margin-bottom:10%;
- border:7px;
-		border-radius:6%;
-	    border-color:#105BF6;
+
 }
 
 	
@@ -369,8 +370,8 @@ margin-bottom:10%;
       margin-bottom: 30px;
       margin-left:10%;
       font-size:90px;
-	    color:#105BF6;
-	   font-weight: 900;
+	   
+	   font-weight: 00;
     } 
 	
     p{ 
