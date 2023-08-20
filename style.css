@@ -352,15 +352,11 @@ height:60%;
   margin-top:12%;
 		
   font-family: "Hero-Regular";
- 
+ margin-bottom:12%;
 text-align:center;
 }
 
-.cont_forTEXT{
-width: 60%;
-margin-bottom:10%;
 
-}
 
 	
 		
@@ -432,8 +428,8 @@ width: 90%;
 	  display:flex;
   justify-content: space-between;}
     .n{
-      height:300px;
-width:503px;
+      height:60%;
+width:70%;
       object-fit: cover;
       border-radius:3% ;
       
