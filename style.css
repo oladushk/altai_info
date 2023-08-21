@@ -344,6 +344,7 @@ height:60%;
 .header img{
 	width:100%;
 	margin:0;
+	padding:0;
 }
 .header p{
   font-size: 70px;
@@ -352,7 +353,7 @@ height:60%;
   margin-top:12%;
 		
   font-family: "Hero-Regular";
- margin-bottom:12%;
+
 text-align:center;
 }
 
@@ -366,8 +367,7 @@ text-align:center;
       margin-bottom: 30px;
       margin-left:10%;
       font-size:90px;
-	   
-	   font-weight: 00;
+	  
     } 
 	
     p{ 
@@ -379,7 +379,7 @@ margin-left:5%;
     }
 
 	.main{
-		margin-top:3%;}
+		margin-top:8%;}
 
     .main h1{
       font-family:"MAK-bold";
