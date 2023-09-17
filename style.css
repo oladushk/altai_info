@@ -331,8 +331,7 @@ height:60%;
   *{
   margin:0px;
   padding: 0px;
-  min-width: min-content;
-  min-height: min-content;
+ 
   box-sizing: border-box;
 }
 
