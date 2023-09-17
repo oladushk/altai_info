@@ -1,4 +1,4 @@
-@media (min-width: 1201px) {
+@media screen and (min-width: 1201px) {
 	
 	*{
   margin:0px;
@@ -291,7 +291,7 @@ height:60%;
 
 
 
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
 @font-face {
   font-family: "MAK-bold";
   src:
