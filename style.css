@@ -321,7 +321,7 @@ height:60%;
     .header h1{
       font-family: MAK-bold;
       text-shadow:20px -52px #105BF6;
-    font-size:250px;
+    font-size:60%;
       color:rgb(46, 43, 43);
       text-align:center;
      
@@ -490,8 +490,8 @@ margin-bottom:5%;
 } 
 
 .katy_ya{
-  min-width:20px;
-  min-height: 10px;
+  width:20px;
+  height: 10px;
   border-radius: 3%;
   margin-top:5%;
   margin-bottom:5%;
