@@ -1,4 +1,6 @@
-@media screen and (min-width: 1201px) {
+
+
+@media (min-width: 1201px) {
 	
 	*{
   margin:0px;
@@ -291,7 +293,7 @@ height:60%;
 
 
 
-@media screen and (max-width: 1200px){
+@media (max-width: 1200px ){
 @font-face {
   font-family: "MAK-bold";
   src:
@@ -321,7 +323,7 @@ height:60%;
     .header h1{
       font-family: MAK-bold;
       text-shadow:20px -52px #105BF6;
-    font-size:60%;
+    font-size:250px;
       color:rgb(46, 43, 43);
       text-align:center;
      
@@ -331,19 +333,16 @@ height:60%;
   *{
   margin:0px;
   padding: 0px;
- 
+  min-width: min-content;
+  min-height: min-content;
   box-sizing: border-box;
 }
 
-.box{
-	 border:7px;
-		border-radius:6%;
-	    border-color:#105BF6;}
+
 
 .header img{
 	width:100%;
 	margin:0;
-	padding:0;
 }
 .header p{
   font-size: 70px;
@@ -352,13 +351,23 @@ height:60%;
   margin-top:12%;
 		
   font-family: "Hero-Regular";
-
+ 
 text-align:center;
 }
 
+.cont_forTEXT{
+width: 60%;
+margin-bottom:10%;
+ border:7px;
+		border-radius:6%;
+	    border-color:#105BF6;
+}
 
-
-	
+	.header{
+		border:13px;
+		border-radius:6%;
+	    color:#105BF6;
+	}
 		
 
     h2,h3{
@@ -366,7 +375,8 @@ text-align:center;
       margin-bottom: 30px;
       margin-left:10%;
       font-size:90px;
-	  
+	    color:#105BF6;
+	   font-weight: 900;
     } 
 	
     p{ 
@@ -378,7 +388,7 @@ margin-left:5%;
     }
 
 	.main{
-		margin-top:8%;}
+		margin-top:3%;}
 
     .main h1{
       font-family:"MAK-bold";
@@ -427,8 +437,8 @@ width: 90%;
 	  display:flex;
   justify-content: space-between;}
     .n{
-      height:60%;
-width:70%;
+      height:300px;
+width:503px;
       object-fit: cover;
       border-radius:3% ;
       
@@ -469,7 +479,7 @@ margin-top:10%;
 
  .kursay{
   height:55%;
-  width:10%;
+  width:30%;
   border-radius: 3%;
  object-fit: cover;
   margin-left: auto;
@@ -490,9 +500,12 @@ margin-bottom:5%;
 } 
 
 .katy_ya{
-  width:20px;
-  height: 10px;
+   height:700px;
+  width:500px;
   border-radius: 3%;
+  margin-left: auto;
+	margin-right: auto; 
+	    display:block;
   margin-top:5%;
   margin-bottom:5%;
      object-fit: cover;
@@ -500,7 +513,7 @@ margin-bottom:5%;
 
 .geyzer{
   height:700px;
-  width:;
+  width:500px;
   border-radius: 3%;
   margin-left: auto;
 	margin-right: auto; 
@@ -538,6 +551,29 @@ margin-bottom:5%;
 
 
 
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+  
 	
 
 	
