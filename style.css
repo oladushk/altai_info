@@ -320,7 +320,7 @@ height:60%;
 
     .header h1{
       font-family: MAK-bold;
-      text-shadow:20px -52px #105BF6;
+      text-shadow:20px -52px #2D3A1C;
     font-size:250px;
       color:rgb(46, 43, 43);
       text-align:center;
@@ -353,7 +353,9 @@ height:60%;
 text-align:center;
 }
 
-
+.box p{
+	color:black;
+}
 		
 
     h2,h3{
