@@ -138,8 +138,8 @@ margin-top:40%;
 	  display:flex;
   justify-content: space-between;}
   .n{
-      height:400px;
-width:700px;
+      height:70%;
+width:80%;
       object-fit: cover;
       border-radius:3% ;
       
@@ -266,16 +266,14 @@ height:60%;
 
 
 .patmos{
-  min-width: 100%;
-  min-height: 100%;
+
   border-radius:3%;
   margin-top:4%;
 	 display:block;
     margin:auto;
 }
 .patm1{
-  min-width: 100%;
-  min-height: 100%;
+
   border-radius:3%;
 	 display:block;
     margin:auto;
