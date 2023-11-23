@@ -1,1 +1,1 @@
-# altai_info
+# altai
